@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mark Oliver Quiazon | Links & Socials</title>
-  <meta name="description" content="Connect with Mark Oliver Quiazon on Portfolio, GitHub, TikTok, Instagram, and Facebook.">
-  
+  <title>Mark Quiazon | Links & Socials</title>
+  <meta name="description" content="Connect with Mark Quiazon on Portfolio, GitHub, TikTok, Instagram, and Facebook.">
+
   <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="Mark Oliver Quiazon | Links">
+  <meta property="og:title" content="Mark Quiazon | Links">
   <meta property="og:description" content="Explore my portfolio, open-source projects, and social channels.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/mark.jpeg">
@@ -15,157 +16,356 @@
   <!-- Google Fonts (Plus Jakarta Sans & Outfit) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 </head>
+
 <body>
+  <!-- Background Video -->
+  <div class="video-bg-container">
+    <video autoplay muted loop playsinline poster="assets/metal-human.jpg" class="bg-video">
+      <source src="assets/metal-human.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+  </div>
+
+  <!-- Ambient Glow Background Effects -->
+  <div class="ambient-glow glow-top"></div>
+  <div class="ambient-glow glow-bottom"></div>
+  <div class="grid-overlay"></div>
+
   <!-- Main Container -->
   <main class="tree-container">
-    
+
+    <!-- Top Action Bar -->
+    <header class="top-nav">
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span>Open to Opportunities</span>
+      </div>
+    </header>
+
     <!-- Profile Info -->
     <section class="profile-card">
       <div class="avatar-wrapper">
         <div class="avatar-ring"></div>
-        <img src="assets/mark.jpeg" alt="Mark Oliver Quiazon" class="profile-avatar" id="avatarImg">
+        <img src="assets/mark.jpeg" alt="Mark Quiazon" class="profile-avatar" id="avatarImg">
       </div>
-      
+
       <div class="profile-meta">
         <h1 class="profile-name">
           Mark Oliver Quiazon
           <span class="verified-badge" title="Verified Profile">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/>
-              <path d="m9 12 2 2 4-4"/>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+              <path d="m9 12 2 2 4-4" />
             </svg>
           </span>
         </h1>
-        <p class="profile-handle">@qznmark</p>
+        <p class="profile-handle"></p>
         <p class="profile-bio">Software QA Tester & Fitness Creator</p>
       </div>
     </section>
 
     <!-- Linktree Buttons List -->
     <section class="links-section" aria-label="Social and Project Links">
-      
-      <!-- 1. Portfolio Link -->
-      <a href="https://portfolio-58pwvdaq5-mark-a88f.vercel.app/" target="_blank" rel="noopener noreferrer" class="link-card" id="link-portfolio">
+
+      <!-- 1. Portfolio Link (Featured) -->
+      <a href="https://markquiazon.com" target="_blank" rel="noopener noreferrer" class="link-card featured-link"
+        id="link-portfolio">
         <div class="link-icon-box">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"/>
-            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
-            <path d="M2 12h20"/>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+            <path d="M2 12h20" />
           </svg>
         </div>
         <div class="link-text-content">
           <span class="link-title">Portfolio</span>
         </div>
         <div class="link-arrow">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14"/>
-            <path d="m12 5 7 7-7 7"/>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
           </svg>
         </div>
       </a>
 
       <!-- 2. GitHub Link -->
-      <a href="https://github.com/markpogiprogrammer" target="_blank" rel="noopener noreferrer" class="link-card" id="link-github">
+      <a href="https://github.com/markquiazon" target="_blank" rel="noopener noreferrer" class="link-card"
+        id="link-github">
         <div class="link-icon-box">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
           </svg>
         </div>
         <div class="link-text-content">
           <span class="link-title">GitHub</span>
         </div>
         <div class="link-arrow">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14"/>
-            <path d="m12 5 7 7-7 7"/>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
           </svg>
         </div>
       </a>
 
       <!-- 3. TikTok Link -->
-      <a href="https://www.tiktok.com/@qznmark" target="_blank" rel="noopener noreferrer" class="link-card" id="link-tiktok">
+      <a href="https://tiktok.com/@markquiazon" target="_blank" rel="noopener noreferrer" class="link-card"
+        id="link-tiktok">
         <div class="link-icon-box">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.04-.1z"/>
+            <path
+              d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.04-.1z" />
           </svg>
         </div>
         <div class="link-text-content">
           <span class="link-title">TikTok</span>
         </div>
         <div class="link-arrow">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14"/>
-            <path d="m12 5 7 7-7 7"/>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
           </svg>
         </div>
       </a>
 
       <!-- 4. Instagram Link -->
-      <a href="https://www.instagram.com/qznmark" target="_blank" rel="noopener noreferrer" class="link-card" id="link-instagram">
+      <a href="https://instagram.com/markquiazon" target="_blank" rel="noopener noreferrer" class="link-card"
+        id="link-instagram">
         <div class="link-icon-box">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
-            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
           </svg>
         </div>
         <div class="link-text-content">
           <span class="link-title">Instagram</span>
         </div>
         <div class="link-arrow">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14"/>
-            <path d="m12 5 7 7-7 7"/>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
           </svg>
         </div>
       </a>
 
       <!-- 5. Facebook Link -->
-      <a href="https://www.facebook.com/mark6god" target="_blank" rel="noopener noreferrer" class="link-card" id="link-facebook">
+      <a href="https://facebook.com/markquiazon" target="_blank" rel="noopener noreferrer" class="link-card"
+        id="link-facebook">
         <div class="link-icon-box">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            <path
+              d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
           </svg>
         </div>
         <div class="link-text-content">
           <span class="link-title">Facebook</span>
         </div>
         <div class="link-arrow">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14"/>
-            <path d="m12 5 7 7-7 7"/>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
           </svg>
         </div>
       </a>
 
     </section>
 
-    <!-- Mini Social Bar -->
+    <!-- Mini Social Bar & Direct Quick Actions -->
     <div class="quick-social-bar">
-      <a href="https://www.facebook.com/mark6god" target="_blank" rel="noopener noreferrer" class="mini-social-btn" title="Facebook" aria-label="Facebook">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      <a href="https://facebook.com/markquiazon" target="_blank" rel="noopener noreferrer" class="mini-social-btn"
+        title="Facebook" aria-label="Facebook">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+        </svg>
       </a>
-      <a href="https://www.instagram.com/qznmark" target="_blank" rel="noopener noreferrer" class="mini-social-btn" title="Instagram" aria-label="Instagram">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+      <a href="https://instagram.com/markquiazon" target="_blank" rel="noopener noreferrer" class="mini-social-btn"
+        title="Instagram" aria-label="Instagram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+          <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+        </svg>
       </a>
-      <a href="https://github.com/markpogiprogrammer" target="_blank" rel="noopener noreferrer" class="mini-social-btn" title="GitHub" aria-label="GitHub">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+      <a href="https://github.com/markquiazon" target="_blank" rel="noopener noreferrer" class="mini-social-btn"
+        title="GitHub" aria-label="GitHub">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+        </svg>
       </a>
-      <a href="https://www.tiktok.com/@qznmark" target="_blank" rel="noopener noreferrer" class="mini-social-btn" title="TikTok" aria-label="TikTok">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.04-.1z"/></svg>
-      </a>
-      <a href="https://portfolio-58pwvdaq5-mark-a88f.vercel.app/" target="_blank" rel="noopener noreferrer" class="mini-social-btn" title="Portfolio" aria-label="Portfolio">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+      <a href="https://tiktok.com/@markquiazon" target="_blank" rel="noopener noreferrer" class="mini-social-btn"
+        title="TikTok" aria-label="TikTok">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.04-.1z" />
+        </svg>
       </a>
     </div>
 
+    <!-- Footer -->
+    <footer class="tree-footer">
+      <p class="footer-text"></p>
+      <div class="footer-badge"></div>
+    </footer>
+
   </main>
+
+  <!-- Modals -->
+  <!-- Share Modal -->
+  <div class="modal-backdrop" id="shareModal" aria-hidden="true">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Share Profile</h3>
+        <button class="modal-close" id="closeShareModal" aria-label="Close share dialog">&times;</button>
+      </div>
+      <p class="modal-desc">Share Mark's link hub with your friends and network</p>
+
+      <div class="share-grid">
+        <button class="share-action-btn" id="shareNativeBtn">
+          <div class="share-icon-circle">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="18" cy="5" r="3" />
+              <circle cx="6" cy="12" r="3" />
+              <circle cx="18" cy="19" r="3" />
+              <line x1="8.59" x2="15.42" y1="13.51" y2="17.49" />
+              <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
+            </svg>
+          </div>
+          <span>Device Share</span>
+        </button>
+        <button class="share-action-btn" id="shareTwitterBtn">
+          <div class="share-icon-circle">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </div>
+          <span>X (Twitter)</span>
+        </button>
+        <button class="share-action-btn" id="shareWhatsAppBtn">
+          <div class="share-icon-circle">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
+              <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1" />
+            </svg>
+          </div>
+          <span>WhatsApp</span>
+        </button>
+        <button class="share-action-btn" id="shareCopyModalBtn">
+          <div class="share-icon-circle">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
+              <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+            </svg>
+          </div>
+          <span>Copy URL</span>
+        </button>
+      </div>
+
+      <div class="share-input-group">
+        <input type="text" id="shareUrlInput" readonly value="https://markquiazon.com/links" class="share-input">
+        <button id="copyInputBtn" class="copy-input-btn">Copy</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- QR Code Modal -->
+  <div class="modal-backdrop" id="qrModal" aria-hidden="true">
+    <div class="modal-card text-center">
+      <div class="modal-header">
+        <h3 class="modal-title">QR Code</h3>
+        <button class="modal-close" id="closeQrModal" aria-label="Close QR dialog">&times;</button>
+      </div>
+      <p class="modal-desc">Scan with your phone camera to open Mark's links</p>
+
+      <div class="qr-container">
+        <div class="qr-box" id="qrBox">
+          <!-- Canvas / SVG QR Generated via JS -->
+          <svg class="qr-svg" viewBox="0 0 200 200" width="180" height="180" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect width="200" height="200" fill="#28282B" rx="12" />
+            <!-- Outer Corner 1 -->
+            <rect x="20" y="20" width="45" height="45" stroke="#a2bffe" stroke-width="4" rx="4" fill="none" />
+            <rect x="32" y="32" width="21" height="21" fill="#a2bffe" rx="2" />
+            <!-- Outer Corner 2 -->
+            <rect x="135" y="20" width="45" height="45" stroke="#a2bffe" stroke-width="4" rx="4" fill="none" />
+            <rect x="147" y="32" width="21" height="21" fill="#a2bffe" rx="2" />
+            <!-- Outer Corner 3 -->
+            <rect x="20" y="135" width="45" height="45" stroke="#a2bffe" stroke-width="4" rx="4" fill="none" />
+            <rect x="32" y="147" width="21" height="21" fill="#a2bffe" rx="2" />
+            <!-- Matrix Pattern Dots in Periwinkle (#a2bffe) -->
+            <rect x="75" y="25" width="8" height="8" fill="#a2bffe" rx="1" />
+            <rect x="90" y="25" width="8" height="8" fill="#a2bffe" rx="1" />
+            <rect x="110" y="25" width="12" height="8" fill="#a2bffe" rx="1" />
+            <rect x="75" y="45" width="16" height="8" fill="#a2bffe" rx="1" />
+            <rect x="100" y="45" width="18" height="8" fill="#a2bffe" rx="1" />
+
+            <rect x="25" y="75" width="8" height="16" fill="#a2bffe" rx="1" />
+            <rect x="40" y="80" width="14" height="8" fill="#a2bffe" rx="1" />
+            <rect x="75" y="75" width="12" height="12" fill="#a2bffe" rx="1" />
+            <rect x="95" y="75" width="8" height="24" fill="#a2bffe" rx="1" />
+            <rect x="115" y="80" width="15" height="8" fill="#a2bffe" rx="1" />
+            <rect x="140" y="75" width="8" height="16" fill="#a2bffe" rx="1" />
+            <rect x="160" y="75" width="18" height="8" fill="#a2bffe" rx="1" />
+
+            <rect x="25" y="105" width="14" height="8" fill="#a2bffe" rx="1" />
+            <rect x="48" y="100" width="12" height="16" fill="#a2bffe" rx="1" />
+            <rect x="75" y="105" width="8" height="8" fill="#a2bffe" rx="1" />
+            <rect x="135" y="105" width="16" height="8" fill="#a2bffe" rx="1" />
+            <rect x="160" y="100" width="18" height="14" fill="#a2bffe" rx="1" />
+
+            <rect x="75" y="135" width="14" height="8" fill="#a2bffe" rx="1" />
+            <rect x="100" y="135" width="8" height="18" fill="#a2bffe" rx="1" />
+            <rect x="120" y="135" width="16" height="8" fill="#a2bffe" rx="1" />
+            <rect x="150" y="135" width="28" height="8" fill="#a2bffe" rx="1" />
+
+            <rect x="75" y="160" width="8" height="18" fill="#a2bffe" rx="1" />
+            <rect x="92" y="165" width="18" height="8" fill="#a2bffe" rx="1" />
+            <rect x="120" y="155" width="8" height="25" fill="#a2bffe" rx="1" />
+            <rect x="140" y="160" width="18" height="8" fill="#a2bffe" rx="1" />
+            <rect x="165" y="165" width="15" height="15" fill="#a2bffe" rx="1" />
+
+            <!-- Center Mini Brand Badge -->
+            <circle cx="100" cy="100" r="14" fill="#28282B" stroke="#a2bffe" stroke-width="2" />
+            <text x="100" y="104" text-anchor="middle" fill="#a2bffe" font-family="Outfit, sans-serif"
+              font-weight="bold" font-size="12">MQ</text>
+          </svg>
+        </div>
+      </div>
+      <p class="qr-handle"></p>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="alert" aria-live="polite">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20 6 9 17l-5-5" />
+    </svg>
+    <span id="toastMsg">Link copied to clipboard!</span>
+  </div>
 
   <script type="module" src="script.js"></script>
 </body>
+
 </html>
