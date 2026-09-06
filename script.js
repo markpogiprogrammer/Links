@@ -9,8 +9,9 @@ const PROFILE_CONFIG = {
   handle: "@qznmark",
   bio: "Software QA Tester & Fitness Creator",
   links: {
-    portfolio: "https://portfolio-58pwvdaq5-mark-a88f.vercel.app/",
+    portfolio: "https://markquiazon.vercel.app",
     github: "https://github.com/markpogiprogrammer",
+    linkedin: "https://www.linkedin.com/in/mark-oliver-quiazon-b65588290",
     tiktok: "https://www.tiktok.com/@qznmark",
     instagram: "https://www.instagram.com/qznmark",
     facebook: "https://www.facebook.com/mark6god"
